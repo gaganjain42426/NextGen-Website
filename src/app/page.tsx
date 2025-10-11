@@ -377,6 +377,11 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 lg:gap-12 max-w-6xl mx-auto items-center">
             {/* Bhuvanesh - Left (Co-Founder) */}
             <div className="flex flex-col items-center scroll-animate">
+              <div className="mb-4 text-center">
+                <span className="inline-block bg-gradient-to-r from-purple-600 to-yellow-500 text-white px-6 py-2 rounded-full text-sm font-bold tracking-wide shadow-lg">
+                  CO-FOUNDER
+                </span>
+              </div>
               <ProfileCard
                 avatarUrl="/team/bhuvanesh.png"
                 miniAvatarUrl="/team/bhuvanesh.png"
@@ -391,6 +396,11 @@ export default function Home() {
 
             {/* Gagan - Center (Founder) - Larger/Featured */}
             <div className="flex flex-col items-center md:scale-110 md:z-10 scroll-animate scroll-animate-delay-1">
+              <div className="mb-4 text-center">
+                <span className="inline-block bg-gradient-to-r from-purple-600 via-purple-500 to-yellow-500 text-white px-8 py-2.5 rounded-full text-base font-bold tracking-wide shadow-xl animate-pulse">
+                  FOUNDER & CEO
+                </span>
+              </div>
               <ProfileCard
                 avatarUrl="/team/gagan.png"
                 miniAvatarUrl="/team/gagan.png"
@@ -405,6 +415,11 @@ export default function Home() {
 
             {/* Nikhil - Right (Co-Founder) */}
             <div className="flex flex-col items-center scroll-animate scroll-animate-delay-2">
+              <div className="mb-4 text-center">
+                <span className="inline-block bg-gradient-to-r from-purple-600 to-yellow-500 text-white px-6 py-2 rounded-full text-sm font-bold tracking-wide shadow-lg">
+                  CO-FOUNDER
+                </span>
+              </div>
               <ProfileCard
                 avatarUrl="/team/nikhil.png"
                 miniAvatarUrl="/team/nikhil.png"
