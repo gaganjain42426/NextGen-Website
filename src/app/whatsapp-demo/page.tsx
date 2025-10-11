@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 
 // Add global styles to hide scrollbar
@@ -40,7 +40,7 @@ Thank you,
 Delhi Public School`,
   'welcome': `Welcome to our institution!
 
-We're delighted to have you as part of our community. You'll receive all important updates, announcements, and information through this verified WhatsApp Business account.
+We&apos;re delighted to have you as part of our community. You&apos;ll receive all important updates, announcements, and information through this verified WhatsApp Business account.
 
 For any assistance, feel free to reach out.
 
@@ -311,7 +311,7 @@ export default function WhatsAppDemo() {
                     {messages.length === 0 && (
                       <div className="flex items-center justify-center h-full">
                         <p className="text-gray-500 text-sm text-center px-8">
-                          Type a message and click "Send Message" to see how it appears
+                          Type a message and click &quot;Send Message&quot; to see how it appears
                         </p>
                       </div>
                     )}

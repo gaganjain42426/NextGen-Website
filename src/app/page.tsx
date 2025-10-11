@@ -455,7 +455,7 @@ export default function Home() {
               <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
                 <p className="text-lg font-semibold text-gray-900 mb-2">Your Business Name ✓</p>
                 <p className="text-gray-700 mb-4">
-                  Hello! Thank you for contacting us. We're here to help with all your digital needs. How can we assist you today?
+                  Hello! Thank you for contacting us. We&apos;re here to help with all your digital needs. How can we assist you today?
                 </p>
                 <p className="text-xs text-gray-500 italic">Sent via verified WhatsApp Business API</p>
               </div>
@@ -534,7 +534,7 @@ export default function Home() {
                   <a href="mailto:comms.next.gen.india@gmail.com" className="text-purple-600 hover:text-purple-700 font-semibold break-all">
                     comms.next.gen.india@gmail.com
                   </a>
-                  <p className="text-gray-600 text-sm mt-1">We'll respond within 24 hours</p>
+                  <p className="text-gray-600 text-sm mt-1">We&apos;ll respond within 24 hours</p>
                 </div>
               </div>
               
