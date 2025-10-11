@@ -211,7 +211,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* WhatsApp Business API */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate">
               <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 3 .97 4.29L2 22l5.71-.97C9 21.64 10.46 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.38 0-2.68-.28-3.87-.78l-.28-.13-2.85.48.48-2.85-.13-.28C4.78 14.68 4.5 13.38 4.5 12c0-4.14 3.36-7.5 7.5-7.5s7.5 3.36 7.5 7.5-3.36 7.5-7.5 7.5z"/>
@@ -224,7 +224,7 @@ export default function Home() {
             </div>
             
             {/* Automated Messaging */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-1">
               <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/>
@@ -237,7 +237,7 @@ export default function Home() {
             </div>
             
             {/* Website & Landing Pages */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-2">
               <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
@@ -250,7 +250,7 @@ export default function Home() {
             </div>
             
             {/* Lead Funnels */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-3">
               <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>
@@ -263,7 +263,7 @@ export default function Home() {
             </div>
             
             {/* Payment Reminders */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-4">
               <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
@@ -276,7 +276,7 @@ export default function Home() {
             </div>
             
             {/* AI-Driven Design */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-5">
               <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
@@ -306,7 +306,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Schools & Education */}
-            <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 scroll-animate">
               <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-4 rounded-2xl w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
@@ -319,7 +319,7 @@ export default function Home() {
             </div>
             
             {/* Startups */}
-            <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-1">
               <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-4 rounded-2xl w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/>
@@ -332,7 +332,7 @@ export default function Home() {
             </div>
             
             {/* Clinics & Healthcare */}
-            <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-2">
               <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-4 rounded-2xl w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M19 3H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 11h-4v4h-4v-4H6v-4h4V6h4v4h4v4z"/>
@@ -345,7 +345,7 @@ export default function Home() {
             </div>
             
             {/* Small Businesses */}
-            <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-3">
               <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-4 rounded-2xl w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/>
@@ -375,7 +375,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-3 gap-8 lg:gap-12 max-w-6xl mx-auto items-center">
             {/* Bhuvanesh - Left (Co-Founder) */}
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center scroll-animate">
               <ProfileCard
                 avatarUrl="/team/bhuvanesh.png"
                 miniAvatarUrl="/team/bhuvanesh.png"
@@ -389,7 +389,7 @@ export default function Home() {
             </div>
 
             {/* Gagan - Center (Founder) - Larger/Featured */}
-            <div className="flex flex-col items-center md:scale-110 md:z-10">
+            <div className="flex flex-col items-center md:scale-110 md:z-10 scroll-animate scroll-animate-delay-1">
               <ProfileCard
                 avatarUrl="/team/gagan.png"
                 miniAvatarUrl="/team/gagan.png"
@@ -403,7 +403,7 @@ export default function Home() {
             </div>
 
             {/* Nikhil - Right (Co-Founder) */}
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center scroll-animate scroll-animate-delay-2">
               <ProfileCard
                 avatarUrl="/team/nikhil.png"
                 miniAvatarUrl="/team/nikhil.png"
@@ -434,7 +434,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* WhatsApp Demo */}
-            <div className="bg-white p-8 rounded-2xl shadow-xl">
+            <div className="bg-white p-8 rounded-2xl shadow-xl scroll-animate">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-3 rounded-2xl">
                   <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -462,7 +462,7 @@ export default function Home() {
             </div>
             
             {/* Modern Website */}
-            <div className="bg-white p-8 rounded-2xl shadow-xl">
+            <div className="bg-white p-8 rounded-2xl shadow-xl scroll-animate scroll-animate-delay-2">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-3 rounded-2xl">
                   <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -505,7 +505,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
             {/* Contact Info */}
-            <div className="space-y-8">
+            <div className="space-y-8 scroll-animate">
               {/* WhatsApp */}
               <div className="flex items-start gap-4">
                 <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-3 rounded-2xl flex-shrink-0">
@@ -551,7 +551,7 @@ export default function Home() {
             </div>
             
             {/* Contact Form */}
-            <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl shadow-xl border border-gray-200">
+            <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl shadow-xl border border-gray-200 scroll-animate scroll-animate-delay-2">
               <form className="space-y-6">
                 <div>
                   <input 
