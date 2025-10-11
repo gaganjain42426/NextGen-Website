@@ -31,41 +31,78 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="bg-white/80 backdrop-blur-xl border border-purple-200/50 shadow-xl shadow-purple-500/20 rounded-2xl px-6 py-3 ring-1 ring-purple-100/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
+          <div className="bg-white/80 backdrop-blur-xl border border-purple-200/50 shadow-xl shadow-purple-500/20 rounded-2xl px-4 sm:px-6 py-3 ring-1 ring-purple-100/50">
             <div className="flex justify-between items-center">
               {/* Logo */}
               <div className="flex items-center">
-                <img src="/logo.png" alt="NextGen Communications" className="h-10 w-auto hover:scale-105 transition-transform duration-300" />
+                <img src="/logo.png" alt="NextGen Communications" className="h-8 sm:h-10 w-auto hover:scale-105 transition-transform duration-300" />
               </div>
               
-              {/* Navigation Links */}
-              <div className="hidden md:flex items-center space-x-1">
-                <a href="#about" className="relative px-4 py-2 text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 group">
+              {/* Desktop Navigation Links */}
+              <div className="hidden lg:flex items-center space-x-1">
+                <a href="#about" className="relative px-3 xl:px-4 py-2 text-sm xl:text-base text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 group">
                   <span className="relative z-10">About</span>
                   <span className="absolute inset-0 bg-purple-50 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300"></span>
                 </a>
-                <a href="#services" className="relative px-4 py-2 text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 group">
+                <a href="#services" className="relative px-3 xl:px-4 py-2 text-sm xl:text-base text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 group">
                   <span className="relative z-10">Services</span>
                   <span className="absolute inset-0 bg-purple-50 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300"></span>
                 </a>
-                <a href="#industries" className="relative px-4 py-2 text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 group">
+                <a href="#industries" className="relative px-3 xl:px-4 py-2 text-sm xl:text-base text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 group">
                   <span className="relative z-10">Industries</span>
                   <span className="absolute inset-0 bg-purple-50 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300"></span>
                 </a>
-                <a href="/whatsapp-demo" className="relative px-4 py-2 text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 group">
+                <a href="/whatsapp-demo" className="relative px-3 xl:px-4 py-2 text-sm xl:text-base text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 group">
                   <span className="relative z-10">WhatsApp Demo</span>
                   <span className="absolute inset-0 bg-purple-50 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300"></span>
                 </a>
-                <a href="#contact" className="relative px-4 py-2 text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 group">
+                <a href="#contact" className="relative px-3 xl:px-4 py-2 text-sm xl:text-base text-gray-700 hover:text-purple-600 font-medium transition-colors duration-300 group">
                   <span className="relative z-10">Contact</span>
                   <span className="absolute inset-0 bg-purple-50 rounded-lg scale-0 group-hover:scale-100 transition-transform duration-300"></span>
                 </a>
               </div>
               
-              {/* CTA Button */}
-              <div className="flex items-center">
-                <button className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-6 py-2.5 rounded-xl font-medium transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/40 hover:scale-105">
+              {/* CTA Button - Desktop */}
+              <div className="hidden sm:flex items-center">
+                <button className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-xl text-sm sm:text-base font-medium transition-all duration-300 shadow-lg shadow-purple-500/30 hover:shadow-xl hover:shadow-purple-500/40 hover:scale-105">
+                  Get Started
+                </button>
+              </div>
+
+              {/* Mobile Menu Button */}
+              <button 
+                onClick={() => {
+                  const menu = document.getElementById('mobile-menu');
+                  if (menu) menu.classList.toggle('hidden');
+                }}
+                className="lg:hidden p-2 text-gray-700 hover:text-purple-600 transition-colors"
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+
+            {/* Mobile Menu */}
+            <div id="mobile-menu" className="hidden lg:hidden mt-4 pt-4 border-t border-gray-200">
+              <div className="flex flex-col space-y-2">
+                <a href="#about" className="px-4 py-2 text-gray-700 hover:text-purple-600 hover:bg-purple-50 rounded-lg font-medium transition-colors duration-300">
+                  About
+                </a>
+                <a href="#services" className="px-4 py-2 text-gray-700 hover:text-purple-600 hover:bg-purple-50 rounded-lg font-medium transition-colors duration-300">
+                  Services
+                </a>
+                <a href="#industries" className="px-4 py-2 text-gray-700 hover:text-purple-600 hover:bg-purple-50 rounded-lg font-medium transition-colors duration-300">
+                  Industries
+                </a>
+                <a href="/whatsapp-demo" className="px-4 py-2 text-gray-700 hover:text-purple-600 hover:bg-purple-50 rounded-lg font-medium transition-colors duration-300">
+                  WhatsApp Demo
+                </a>
+                <a href="#contact" className="px-4 py-2 text-gray-700 hover:text-purple-600 hover:bg-purple-50 rounded-lg font-medium transition-colors duration-300">
+                  Contact
+                </a>
+                <button className="bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-2.5 rounded-xl font-medium shadow-lg mt-2">
                   Get Started
                 </button>
               </div>
@@ -100,17 +137,17 @@ export default function Home() {
         </div>
         
         {/* Content Overlay */}
-        <div className="relative z-10 text-center max-w-4xl mx-auto px-6 pointer-events-none">
+        <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 pointer-events-none">
           {/* Logo */}
-          <div className="mb-8 scroll-animate">
-            <img src="/logo.png" alt="NextGen Communications" className="h-20 w-auto mx-auto mb-4" />
-            <div className="flex items-center justify-center text-purple-600 font-medium mb-6">
-              <span className="text-sm">✨ AI-Powered Digital Solutions</span>
+          <div className="mb-6 sm:mb-8 scroll-animate">
+            <img src="/logo.png" alt="NextGen Communications" className="h-14 sm:h-20 w-auto mx-auto mb-3 sm:mb-4" />
+            <div className="flex items-center justify-center text-purple-600 font-medium mb-4 sm:mb-6">
+              <span className="text-xs sm:text-sm">✨ AI-Powered Digital Solutions</span>
             </div>
           </div>
           
           {/* Main Heading */}
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight scroll-animate scroll-animate-delay-1">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 leading-tight scroll-animate scroll-animate-delay-1">
             <span className="text-gray-900">Verified Messaging</span>
             <span className="text-gray-900"> + </span>
             <br />
@@ -122,17 +159,17 @@ export default function Home() {
           </h1>
           
           {/* Subtitle */}
-          <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto leading-relaxed scroll-animate scroll-animate-delay-2">
+          <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed scroll-animate scroll-animate-delay-2 px-4">
             We help schools, startups, and SMEs build trust and visibility with AI-powered 
             digital solutions.
           </p>
           
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center scroll-animate scroll-animate-delay-3">
-            <button className="pointer-events-auto bg-gradient-to-r from-purple-600 via-purple-500 to-yellow-500 hover:from-purple-700 hover:via-purple-600 hover:to-yellow-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105 flex items-center gap-2">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center scroll-animate scroll-animate-delay-3 px-4">
+            <button className="w-full sm:w-auto pointer-events-auto bg-gradient-to-r from-purple-600 via-purple-500 to-yellow-500 hover:from-purple-700 hover:via-purple-600 hover:to-yellow-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold text-base sm:text-lg transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105 flex items-center justify-center gap-2">
               📅 Book a Demo
             </button>
-            <button className="pointer-events-auto bg-white/95 backdrop-blur-sm text-purple-600 px-8 py-4 rounded-xl font-semibold text-lg border-2 border-purple-300 hover:border-purple-400 hover:bg-white transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105">
+            <button className="w-full sm:w-auto pointer-events-auto bg-white/95 backdrop-blur-sm text-purple-600 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold text-base sm:text-lg border-2 border-purple-300 hover:border-purple-400 hover:bg-white transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105">
               See Our Work →
             </button>
           </div>
@@ -143,7 +180,7 @@ export default function Home() {
       <section id="about" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Digital Presence. Simplified.
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-yellow-500 mx-auto"></div>
@@ -201,16 +238,16 @@ export default function Home() {
       <section id="services" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Our Services
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-yellow-500 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Comprehensive digital solutions tailored to your business needs
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {/* WhatsApp Business API */}
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate">
               <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
@@ -296,16 +333,16 @@ export default function Home() {
       <section id="industries" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Industries We Serve
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-yellow-500 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Trusted by diverse businesses across multiple sectors
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {/* Schools & Education */}
             <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 scroll-animate">
               <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-4 rounded-2xl w-16 h-16 mx-auto mb-6 flex items-center justify-center">
@@ -365,16 +402,16 @@ export default function Home() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Meet Our Team
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-yellow-500 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               The passionate individuals driving digital transformation for businesses
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 lg:gap-12 max-w-6xl mx-auto items-center">
+          <div className="grid md:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 max-w-6xl mx-auto items-center">
             {/* Bhuvanesh - Left (Co-Founder) */}
             <div className="flex flex-col items-center scroll-animate">
               <div className="mb-4 text-center">
@@ -439,11 +476,11 @@ export default function Home() {
       <section id="demo" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               See Your Brand Stand Out
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-yellow-500 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Verified communication and modern design that builds trust
             </p>
           </div>
@@ -510,11 +547,11 @@ export default function Home() {
       <section id="contact" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Let&apos;s Build Your Digital Future
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-yellow-500 mx-auto mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
               Ready to transform your business? Get in touch with us today.
             </p>
           </div>
