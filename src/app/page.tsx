@@ -192,7 +192,7 @@ export default function Home() {
                 <span className="text-purple-600 font-semibold">Rogue Studio</span> is a full-service social media marketing agency based in Jaipur, specializing in creating authentic, engaging content for local brands.
               </p>
               <p className="text-lg text-gray-700 mb-8">
-                From <span className="text-yellow-600 font-semibold">scriptwriting to final Meta ad deployment</span>, we handle every aspect of your social media strategy. Whether you're a F&B brand, salon, retail store, or service business, we bring your story to life.
+                From <span className="text-yellow-600 font-semibold">scriptwriting to final Meta ad deployment</span>, we handle every aspect of your social media strategy. Whether you&apos;re a F&B brand, salon, retail store, or service business, we bring your story to life.
               </p>
               
               <div className="space-y-4">
