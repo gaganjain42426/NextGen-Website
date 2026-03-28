@@ -148,29 +148,29 @@ export default function Home() {
           
           {/* Main Heading */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 leading-tight scroll-animate scroll-animate-delay-1">
-            <span className="text-gray-900">Verified Messaging</span>
-            <span className="text-gray-900"> + </span>
+            <span className="text-gray-900">End-to-End</span>
+            <span className="text-gray-900"> </span>
             <br />
             <span className="bg-gradient-to-r from-purple-600 via-purple-500 to-yellow-600 bg-clip-text text-transparent">
-              Modern Websites
+              Social Media Marketing
             </span>
             <br />
-            <span className="text-gray-900">for Businesses</span>
+            <span className="text-gray-900">for Jaipur Brands</span>
           </h1>
           
           {/* Subtitle */}
           <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed scroll-animate scroll-animate-delay-2 px-4">
-            We help schools, startups, and SMEs build trust and visibility with AI-powered 
-            digital solutions.
+            We help local Jaipur brands create engaging content, build presence, and scale sales
+            through professional social media marketing.
           </p>
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center scroll-animate scroll-animate-delay-3 px-4">
             <button className="w-full sm:w-auto pointer-events-auto bg-gradient-to-r from-purple-600 via-purple-500 to-yellow-500 hover:from-purple-700 hover:via-purple-600 hover:to-yellow-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold text-base sm:text-lg transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105 flex items-center justify-center gap-2">
-              📅 Book a Demo
+              🎬 Start Your Campaign
             </button>
             <button className="w-full sm:w-auto pointer-events-auto bg-white/95 backdrop-blur-sm text-purple-600 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold text-base sm:text-lg border-2 border-purple-300 hover:border-purple-400 hover:bg-white transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105">
-              See Our Work →
+              View Portfolio →
             </button>
           </div>
         </div>
@@ -181,7 +181,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Digital Presence. Simplified.
+              Professional Content. Authentic Storytelling.
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-yellow-500 mx-auto"></div>
           </div>
@@ -189,10 +189,10 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="scroll-animate">
               <p className="text-lg text-gray-700 mb-6">
-                NextGen Communications is a <span className="text-purple-600 font-semibold">Jaipur-based AI agency</span> helping organizations modernize their communication and build a strong digital presence.
+                <span className="text-purple-600 font-semibold">Rogue Studio</span> is a full-service social media marketing agency based in Jaipur, specializing in creating authentic, engaging content for local brands.
               </p>
               <p className="text-lg text-gray-700 mb-8">
-                We provide verified <span className="text-yellow-600 font-semibold">WhatsApp Business API setup</span>, landing pages, automation tools, and AI-driven website design to help schools, startups, and small businesses thrive in the digital age.
+                From <span className="text-yellow-600 font-semibold">scriptwriting to final Meta ad deployment</span>, we handle every aspect of your social media strategy. Whether you're a F&B brand, salon, retail store, or service business, we bring your story to life.
               </p>
               
               <div className="space-y-4">
@@ -202,7 +202,7 @@ export default function Home() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                   </div>
-                  <span className="text-gray-700 font-medium">AI-Driven Solutions</span>
+                  <span className="text-gray-700 font-medium">Complete Content Cycle</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="bg-purple-100 p-2 rounded-lg">
@@ -210,7 +210,7 @@ export default function Home() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                   </div>
-                  <span className="text-gray-700 font-medium">Verified Messaging</span>
+                  <span className="text-gray-700 font-medium">Professional Production</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="bg-purple-100 p-2 rounded-lg">
@@ -218,7 +218,7 @@ export default function Home() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                     </svg>
                   </div>
-                  <span className="text-gray-700 font-medium">Modern Design</span>
+                  <span className="text-gray-700 font-medium">Results-Driven Ads</span>
                 </div>
               </div>
             </div>
@@ -234,96 +234,115 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Services Workflow Section */}
       <section id="services" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Our Services
+              Our Complete Process
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-yellow-500 mx-auto mb-6"></div>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive digital solutions tailored to your business needs
+              From concept to conversion - we handle your complete social media marketing journey
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {/* WhatsApp Business API */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate">
-              <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 3 .97 4.29L2 22l5.71-.97C9 21.64 10.46 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.38 0-2.68-.28-3.87-.78l-.28-.13-2.85.48.48-2.85-.13-.28C4.78 14.68 4.5 13.38 4.5 12c0-4.14 3.36-7.5 7.5-7.5s7.5 3.36 7.5 7.5-3.36 7.5-7.5 7.5z"/>
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">WhatsApp Business API</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Get verified green tick status and professional messaging capabilities for your business.
-              </p>
-            </div>
+          {/* Timeline Section */}
+          <div className="relative">
+            {/* Timeline Line */}
+            <div className="hidden md:block absolute top-24 left-0 right-0 h-1 bg-gradient-to-r from-purple-600 via-yellow-500 to-purple-600"></div>
             
-            {/* Automated Messaging */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-1">
-              <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/>
-                </svg>
+            {/* Timeline Steps */}
+            <div className="grid md:grid-cols-5 gap-6 md:gap-4">
+              {/* Step 1: Script */}
+              <div className="relative scroll-animate">
+                <div className="flex flex-col items-center">
+                  <div className="relative z-10 mb-6">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg shadow-purple-500/30">
+                      <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19.4 7.34L16.66 4.6A2 2 0 0 0 14 4.53h-.5c-1.45 0-3 .5-4.08 1.63L5 13.07C4.4 13.62 4 14.35 4 15.07V19c0 .55.45 1 1 1h3.93c.72 0 1.45-.4 2-1.05L18.37 9.58c1.12-1.05 1.63-2.63 1.63-4.08v-.5c0-.75-.29-1.46-.76-2.01zM9 16.17L7.83 15h1.17v1.17zM18 9c0 .82-.65 1.65-1.59 2.54L9.5 16.65h-2.3L16.6 6h.4c.91 0 1.65.74 1.65 1.65v1.35z"/>
+                      </svg>
+                    </div>
+                    <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-white rounded-full border-2 border-purple-600 flex items-center justify-center text-sm font-bold text-purple-600">1</div>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3 text-center">Script</h3>
+                  <p className="text-gray-600 text-center text-sm leading-relaxed">
+                    We create compelling scripts tailored to your brand voice and audience, designed for platform optimization.
+                  </p>
+                </div>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">Automated Messaging & Chatbots</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Smart AI-powered chatbots that handle customer queries 24/7 with intelligent responses.
-              </p>
-            </div>
-            
-            {/* Website & Landing Pages */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-2">
-              <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
-                </svg>
+
+              {/* Step 2: Shoot */}
+              <div className="relative scroll-animate scroll-animate-delay-1">
+                <div className="flex flex-col items-center">
+                  <div className="relative z-10 mb-6">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg shadow-purple-500/30">
+                      <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+                      </svg>
+                    </div>
+                    <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-white rounded-full border-2 border-purple-600 flex items-center justify-center text-sm font-bold text-purple-600">2</div>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3 text-center">Shoot</h3>
+                  <p className="text-gray-600 text-center text-sm leading-relaxed">
+                    Professional video and photo production with high-quality equipment and creative direction.
+                  </p>
+                </div>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">Website & Landing Pages</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Modern, responsive websites and high-converting landing pages designed to impress.
-              </p>
-            </div>
-            
-            {/* Lead Funnels */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-3">
-              <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>
-                </svg>
+
+              {/* Step 3: Edit */}
+              <div className="relative scroll-animate scroll-animate-delay-2">
+                <div className="flex flex-col items-center">
+                  <div className="relative z-10 mb-6">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg shadow-purple-500/30">
+                      <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                      </svg>
+                    </div>
+                    <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-white rounded-full border-2 border-purple-600 flex items-center justify-center text-sm font-bold text-purple-600">3</div>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3 text-center">Edit</h3>
+                  <p className="text-gray-600 text-center text-sm leading-relaxed">
+                    Expert video editing with color grading, graphics, transitions, and audio enhancement.
+                  </p>
+                </div>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">Lead Funnels & Campaigns</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Strategic digital campaigns and optimized funnels to capture and convert leads.
-              </p>
-            </div>
-            
-            {/* Payment Reminders */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-4">
-              <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
-                </svg>
+
+              {/* Step 4: Post */}
+              <div className="relative scroll-animate scroll-animate-delay-3">
+                <div className="flex flex-col items-center">
+                  <div className="relative z-10 mb-6">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg shadow-purple-500/30">
+                      <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 3H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54h2.05v2.71h1.38v-2.71h2.05l-2.73-3.54zM9 9h6v2H9z"/>
+                      </svg>
+                    </div>
+                    <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-white rounded-full border-2 border-purple-600 flex items-center justify-center text-sm font-bold text-purple-600">4</div>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3 text-center">Post</h3>
+                  <p className="text-gray-600 text-center text-sm leading-relaxed">
+                    Strategic content scheduling across Instagram, Facebook, and other platforms with optimal timing.
+                  </p>
+                </div>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">Payment Reminders</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Automated payment reminder systems to improve cash flow and reduce follow-ups.
-              </p>
-            </div>
-            
-            {/* AI-Driven Design */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-5">
-              <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-4 rounded-2xl w-16 h-16 mb-6 flex items-center justify-center">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
-                </svg>
+
+              {/* Step 5: Meta Ads */}
+              <div className="relative scroll-animate scroll-animate-delay-4">
+                <div className="flex flex-col items-center">
+                  <div className="relative z-10 mb-6">
+                    <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg shadow-purple-500/30">
+                      <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+                      </svg>
+                    </div>
+                    <div className="absolute -bottom-2 -right-2 w-6 h-6 bg-white rounded-full border-2 border-purple-600 flex items-center justify-center text-sm font-bold text-purple-600">5</div>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3 text-center">Meta Ads</h3>
+                  <p className="text-gray-600 text-center text-sm leading-relaxed">
+                    Targeted Facebook and Instagram ad campaigns with data-driven optimization for maximum ROI.
+                  </p>
+                </div>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">AI-Driven Design</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Cutting-edge AI tools to create stunning visuals and engaging digital experiences.
-              </p>
             </div>
           </div>
         </div>
@@ -334,64 +353,64 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Industries We Serve
+              Brands We Work With
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-yellow-500 mx-auto mb-6"></div>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-              Trusted by diverse businesses across multiple sectors
+              Empowering Jaipur's best brands to tell their story and grow online
             </p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-            {/* Schools & Education */}
+            {/* F&B & Restaurants */}
             <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 scroll-animate">
               <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-4 rounded-2xl w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
+                  <path d="M12 2c1.1 0 2 .9 2 2 0 2.3-1.5 4.3-3.7 4.9-.3 1.4 1 2.5 1 5.6 0 2.8-1.8 5-4.8 5-1.3-.2-2.5-.9-3.3-2H0V4c0-1.1.9-2 2-2h10zm9 9c.6 0 1 .4 1 1v10h3v2h-3v3h-2v-3h-3v-2h3v-10c0-.6.4-1 1-1h3z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Schools & Education</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">F&B & Restaurants</h3>
               <p className="text-gray-600 text-center text-sm leading-relaxed">
-                Streamline parent communication, fee reminders, and announcements with verified messaging.
+                Showcase your culinary creations with mouth-watering content and drive footfall with targeted ads.
               </p>
             </div>
             
-            {/* Startups */}
+            {/* Fashion & Retail */}
             <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-1">
               <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-4 rounded-2xl w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71z"/>
+                  <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Startups</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Fashion & Retail</h3>
               <p className="text-gray-600 text-center text-sm leading-relaxed">
-                Build your brand identity and digital presence from the ground up with modern solutions.
+                Create stunning visual content that makes your collections stand out and drive online sales.
               </p>
             </div>
             
-            {/* Clinics & Healthcare */}
+            {/* Health & Wellness */}
             <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-2">
               <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-4 rounded-2xl w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M19 3H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 11h-4v4h-4v-4H6v-4h4V6h4v4h4v4z"/>
+                  <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Clinics & Healthcare</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Health & Wellness</h3>
               <p className="text-gray-600 text-center text-sm leading-relaxed">
-                Appointment reminders, patient communication, and health tips via automated messaging.
+                Build trust and educate your audience with authentic wellness content and targeted promotions.
               </p>
             </div>
             
-            {/* Small Businesses */}
+            {/* Professional Services */}
             <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 scroll-animate scroll-animate-delay-3">
               <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-4 rounded-2xl w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/>
+                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Small Businesses</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Professional Services</h3>
               <p className="text-gray-600 text-center text-sm leading-relaxed">
-                Enhance customer engagement and grow your business with professional digital tools.
+                Establish authority and generate qualified leads through strategic content and professional branding.
               </p>
             </div>
           </div>
@@ -472,70 +491,83 @@ export default function Home() {
         </div>
       </section>
 
-      {/* See Your Brand Stand Out Section */}
+      {/* Social Media Showcase Section */}
       <section id="demo" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-              See Your Brand Stand Out
+              Content That Converts
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-yellow-500 mx-auto mb-6"></div>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-              Verified communication and modern design that builds trust
+              High-quality content paired with strategic ads that drive real business results
             </p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* WhatsApp Demo */}
+            {/* Social Media Content */}
             <div className="bg-white p-8 rounded-2xl shadow-xl scroll-animate">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-3 rounded-2xl">
                   <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 3 .97 4.29L2 22l5.71-.97C9 21.64 10.46 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.38 0-2.68-.28-3.87-.78l-.28-.13-2.85.48.48-2.85-.13-.28C4.78 14.68 4.5 13.38 4.5 12c0-4.14 3.36-7.5 7.5-7.5s7.5 3.36 7.5 7.5-3.36 7.5-7.5 7.5z"/>
+                    <path d="M19 3H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5.04-6.71l-2.75 3.54h2.05v2.71h1.38v-2.71h2.05l-2.73-3.54zM9 9h6v2H9z"/>
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">Verified WhatsApp</h3>
+                  <h3 className="text-xl font-bold text-gray-900">Professional Content</h3>
                   <p className="text-sm text-gray-600 flex items-center gap-1">
-                    Business Account 
-                    <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
-                    </svg>
+                    Instagram, Facebook & More
                   </p>
                 </div>
               </div>
               
               <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                <p className="text-lg font-semibold text-gray-900 mb-2">Your Business Name ✓</p>
+                <p className="text-lg font-semibold text-gray-900 mb-2">Your Brand Story</p>
                 <p className="text-gray-700 mb-4">
-                  Hello! Thank you for contacting us. We&apos;re here to help with all your digital needs. How can we assist you today?
+                  From short-form Reels to long-form storytelling, we create content that resonates with your audience and keeps them coming back.
                 </p>
-                <p className="text-xs text-gray-500 italic">Sent via verified WhatsApp Business API</p>
+                <p className="text-xs text-gray-500 italic">Created with professional equipment and expert editing</p>
               </div>
             </div>
             
-            {/* Modern Website */}
+            {/* Meta Ads & Performance */}
             <div className="bg-white p-8 rounded-2xl shadow-xl scroll-animate scroll-animate-delay-2">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-gradient-to-br from-purple-500 to-yellow-500 p-3 rounded-2xl">
                   <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                    <path d="M3 13h2v8H3zm4-8h2v16H7zm4-2h2v18h-2zm4-1h2v19h-2zm4 4h2v15h-2z"/>
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900">Modern Website</h3>
-                  <p className="text-sm text-gray-600">Professional Design</p>
+                  <h3 className="text-xl font-bold text-gray-900">Meta Ads Campaign</h3>
+                  <p className="text-sm text-gray-600">Data-Driven Results</p>
                 </div>
               </div>
               
               <div className="relative rounded-xl overflow-hidden border-2 border-gray-200">
-                <img 
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop" 
-                  alt="Modern website design" 
-                  className="w-full h-48 object-cover"
-                />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <p className="text-white font-semibold text-sm">Clean, responsive, and conversion-focused</p>
+                <div className="bg-gradient-to-br from-purple-50 to-yellow-50 p-6 space-y-4">
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-700 font-medium">Campaign Performance</span>
+                    <span className="text-green-600 font-bold text-lg">↑ 240%</span>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex justify-between text-sm">
+                      <span className="text-gray-600">Impressions</span>
+                      <span className="font-semibold text-gray-900">1.2M</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2">
+                      <div className="bg-gradient-to-r from-purple-600 to-yellow-500 h-2 rounded-full" style={{width: '85%'}}></div>
+                    </div>
+                  </div>
+                  <div className="space-y-2 pt-2 border-t border-gray-300">
+                    <div className="flex justify-between text-sm">
+                      <span className="text-gray-600">Conversions</span>
+                      <span className="font-semibold text-gray-900">342</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2">
+                      <div className="bg-gradient-to-r from-purple-600 to-yellow-500 h-2 rounded-full" style={{width: '92%'}}></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
